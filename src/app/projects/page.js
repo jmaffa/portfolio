@@ -16,10 +16,11 @@ export default function Projects() {
             <div className='lg:flex lg:flex-row flex flex-col items-center px-4 py-4'>
               {/* This might be an image with a title */}
               <Image className='lg:pr-4' src='/development-cover.png' width='400' height='100' alt='Gendo Taiko Song Selector'></Image>
-              <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Gendo Taiko Song Selector</h1>
+              <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Song Selector</h1>
               <div className='lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue'></div>
-              <p className='lg:pl-8 text-xl grow'>List aggregation system saving the headache of creating performance lineups.
-              <p className='text-base text-jm-blue italic pt-2'>Web, React, Vercel</p>
+              <p className='lg:pl-8 text-xl grow'>
+                <span className='text-xl'>List aggregation system saving the headache of creating performance lineups. <br/></span>
+                <span className='text-base text-jm-blue italic pt-2'>Web, React, Vercel</span>
               </p>
             </div>
           </a>
@@ -29,8 +30,9 @@ export default function Projects() {
               <Image className='lg:pr-4' src='/development-cover.png' width='400' height='100' alt='Gendo Taiko Song Selector'></Image>
               <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Iterative Design</h1>
               <div className='lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue'></div>
-              <p className='lg:pl-8 text-xl grow'>Redesigning a flow to improve access to Medicare benefits for your loved ones.
-              <p className='text-base text-jm-blue italic pt-2'>Mobile, Figma, Prototype, Sketching</p>
+              <p className='lg:pl-8 text-xl grow'>
+                <span className='text-xl'>Redesigning a flow to improve access to Medicare benefits for your loved ones.<br/></span>
+                <span className='text-base text-jm-blue italic pt-2'>Mobile, Figma, Prototype, Sketching</span>
               </p>
             </div>
           </a>
@@ -41,8 +43,8 @@ export default function Projects() {
               <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Social Enterprise Management System</h1>
               <div className='lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue'></div>
               <p className='lg:pl-8 text-xl grow'>
-                Fostering innovation in the Philippines by connecting aspiring entrepreneurs with experienced consultants.
-                <p className='text-base text-jm-blue italic pt-2'>Mobile, Figma, Prototype</p>
+                <span className='text-xl'>Fostering innovation in the Philippines by connecting aspiring entrepreneurs with experienced consultants.<br/></span>
+                <span className='text-base text-jm-blue italic pt-2'>Mobile, Figma, Prototype</span>
               </p>
               <p></p>
             </div>
