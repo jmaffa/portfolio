@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen font-merriweather">
+    <div className="flex flex-col min-h-screen">
       <div className="lg:hidden w-full flex lg:flex-row flex-col text-center lg:text-left  px-12 py-6 text-xl font-bold">
         <div className='lg:w-1/2 lg:pl-4'>
             <div><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/">home</a></div>

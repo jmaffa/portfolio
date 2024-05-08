@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily:{
         'merriweather' : ['Merriweather', 'serif'],
+        'rosarivo' : ['Rosarivo', 'serif'],
       }
       
     },

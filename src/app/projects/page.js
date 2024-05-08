@@ -5,7 +5,7 @@ import Image from "next/image";
 // In future iterations, these projects can be components and can be created from .map and a JSON
 export default function Projects() {
   return (
-    <div className="flex flex-col min-h-screen font-merriweather">
+    <div className="flex flex-col min-h-screen">
         <NavBar/>
         <div className='lg:pl-16 text-center lg:text-left'>
             <h1 className='text-jm-blue text-6xl'>Projects <i className='hidden lg:inline lg:text-xl lg:align-middle lg:text-jm-black'>Check out some of my work!</i></h1>
