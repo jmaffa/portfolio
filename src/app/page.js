@@ -3,16 +3,19 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-merriweather">
-      <div className="lg:hidden lg:flex w-full flex-row pl-12">
-        <div className="flex flex-row lg:w-1/2 underline decoration-jm-yellow text-xl justify-evenly font-bold">
-          <div className="pl-0 p-4 w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/projects">Projects</a></div>
-          <div className="p-4 w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/about">About</a></div>
-          <div className="p-4 w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/about">Fun</a></div>
-          <div className="p-4 w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/contact">Contact Me</a></div>
+      <div className="lg:hidden w-full flex lg:flex-row flex-col text-center lg:text-left  px-12 py-6 text-xl font-bold">
+        <div className='lg:w-1/2 lg:pl-4'>
+            <div><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/">home</a></div>
         </div>
-      </div>
+        <div className="lg:w-1/2 flex lg:flex-row flex-col underline decoration-jm-yellow justify-end font-bold">
+            <div className="lg:pl-0 lg:w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/projects">projects</a></div>
+            <div className="lg:pl-4 lg:w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/about">about</a></div>
+            <div className="lg:pl-4 lg:w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/fun">fun</a></div>
+            <div className="lg:pl-4 lg:w-1/4"><a className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2" href="/contact">contact me</a></div>
+        </div>
+    </div>
       {/* Need a NavBar on this page to get back to home */}
-      <div className="flex-col p-12">
+      <div className="flex-col px-6 lg:px-12 lg:py-4">
         <div className="flex-row grow max-w-screen">
           <h1 className="text-8xl text-jm-blue italic">Hi, I&apos;m Joe Maffa!</h1>
         </div>

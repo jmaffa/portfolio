@@ -7,8 +7,9 @@ export default function Projects() {
   return (
     <div className="flex flex-col min-h-screen font-merriweather">
         <NavBar/>
-        <div className='pl-16'>
-            <h1 className='text-jm-blue text-6xl'>Projects</h1>
+        <div className='lg:pl-16 text-center lg:text-left'>
+            <h1 className='text-jm-blue text-6xl'>Projects <i className='hidden lg:inline lg:text-xl lg:align-middle lg:text-jm-black'>Check out some of my work!</i></h1>
+            <h2 className='lg:hidden text-xl italic'>Check out some of my work!</h2>
         </div>
         <div className='flex flex-col px-20 py-10'>
           <a href='/projects/development' className='hover:bg-jm-yellow transition ease-in duration-300'>

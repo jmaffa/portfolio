@@ -21,7 +21,8 @@ const config: Config = {
     colors: {
       'jm-blue' : '#383D6B',
       'jm-yellow' : '#DFC361',
-      'jm-red' : '#F24822'
+      'jm-red' : '#F24822',
+      'jm-black' : '#000000',
     }
   },
   plugins: [],
