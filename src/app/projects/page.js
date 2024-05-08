@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../../components/navbar'
 import Image from "next/image";
 
-
+// In future iterations, these projects can be components and can be created from .map and a JSON
 export default function Projects() {
   return (
     <div className="flex flex-col min-h-screen font-merriweather">
@@ -18,7 +18,9 @@ export default function Projects() {
               <Image className='lg:pr-4' src='/development-cover.png' width='400' height='100' alt='Gendo Taiko Song Selector'></Image>
               <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Gendo Taiko Song Selector</h1>
               <div className='lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue'></div>
-              <p className='lg:pl-8 text-xl grow'>This is a description of the project.</p>
+              <p className='lg:pl-8 text-xl grow'>List aggregation system saving the headache of creating performance lineups.
+              <p className='text-base text-jm-blue italic pt-2'>Web, React, Vercel</p>
+              </p>
             </div>
           </a>
           <a href='/projects/development' className='hover:bg-jm-yellow transition ease-in duration-300'>
@@ -27,7 +29,9 @@ export default function Projects() {
               <Image className='lg:pr-4' src='/development-cover.png' width='400' height='100' alt='Gendo Taiko Song Selector'></Image>
               <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Iterative Design</h1>
               <div className='lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue'></div>
-              <p className='lg:pl-8 text-xl grow'>This is a description of the project.</p>
+              <p className='lg:pl-8 text-xl grow'>Redesigning a flow to improve access to Medicare benefits for your loved ones.
+              <p className='text-base text-jm-blue italic pt-2'>Mobile, Figma, Prototype, Sketching</p>
+              </p>
             </div>
           </a>
           <a href='/projects/development' className='hover:bg-jm-yellow transition ease-in duration-300'>
@@ -36,7 +40,11 @@ export default function Projects() {
               <Image className='lg:pr-4' src='/development-cover.png' width='400' height='100' alt='Gendo Taiko Song Selector'></Image>
               <h1 className='lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center'>Social Enterprise Management System</h1>
               <div className='lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue'></div>
-              <p className='lg:pl-8 text-xl grow'>This is a description of the project.</p>
+              <p className='lg:pl-8 text-xl grow'>
+                Fostering innovation in the Philippines by connecting aspiring entrepreneurs with experienced consultants.
+                <p className='text-base text-jm-blue italic pt-2'>Mobile, Figma, Prototype</p>
+              </p>
+              <p></p>
             </div>
           </a>
           

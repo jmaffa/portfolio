@@ -23,6 +23,7 @@ const config: Config = {
       'jm-yellow' : '#DFC361',
       'jm-red' : '#F24822',
       'jm-black' : '#000000',
+      'jm-violet' : '#C4B5FD',
     }
   },
   plugins: [],
