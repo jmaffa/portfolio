@@ -24,7 +24,7 @@ export default function Projects() {
           <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
             {/* This might be an image with a title */}
             <Image
-              className="lg:pr-4 rounded-lg"
+              className="lg:mr-4 rounded-lg"
               src="/development-cover.png"
               width="400"
               height="100"
@@ -52,11 +52,11 @@ export default function Projects() {
           <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
             {/* This might be an image with a title */}
             <Image
-              className="lg:pr-4 rounded-lg"
-              src="/development-cover.png"
+              className="lg:mr-4 rounded-lg"
+              src="/uno-cover.png"
               width="400"
               height="100"
-              alt="Gendo Taiko Song Selector"
+              alt="Iterative Design"
             ></Image>
             <h1 className="lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center">
               Iterative Design
@@ -81,7 +81,7 @@ export default function Projects() {
           <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
             {/* This might be an image with a title */}
             <Image
-              className="lg:pr-4 rounded-lg"
+              className="lg:mr-4 rounded-lg"
               src="/development-cover.png"
               width="400"
               height="100"

@@ -46,7 +46,7 @@ export default function page() {
             <br />
           </div>
           {/* Actual Case Study */}
-          <div className="w-3/4 pt-2 pr-48">
+          <div className="w-full px-8 lg:w-3/4 pt-2 lg:pr-36 lg:pl-0 ">
             {/* Overview */}
             <div className="py-4">
               <h1 className="text-5xl pb-2">Song Selector</h1>
@@ -56,7 +56,7 @@ export default function page() {
               </p>
             </div>
 
-            <div className="w-3/5 grid grid-cols-2 gap-4 py-4 border-solid border-y-2 border-jm-blue">
+            <div className="w-4/5 grid grid-cols-3 gap-4 py-4 border-solid border-y-2 border-jm-blue">
               <div>
                 <h3 className="font-bold text-jm-blue text-xl">Client</h3>
                 <p>
@@ -80,6 +80,16 @@ export default function page() {
               <div>
                 <h3 className="font-bold text-jm-blue text-xl">Tools</h3>
                 <p>React, JS, Figma</p>
+              </div>
+              <div>
+                <h3 className="font-bold text-jm-blue text-xl">Links</h3>
+                <Link
+                  target="_blank"
+                  href="https://development-gendo-aggregator.vercel.app/"
+                  className=" underline hover:decoration-jm-yellow hover:text-jm-red"
+                >
+                  Webapp
+                </Link>
               </div>
             </div>
             {/* Case Study */}
