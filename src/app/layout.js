@@ -1,24 +1,24 @@
 import { Rosarivo, DM_Serif_Display, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const rosarivo = Rosarivo({ 
+const rosarivo = Rosarivo({
   subsets: ["latin"],
-  weight: ['400'],
- });
+  weight: ["400"],
+});
 
-const dm_serif = DM_Serif_Display({ 
+const dm_serif = DM_Serif_Display({
   subsets: ["latin"],
-  weight: ['400'],
- });
+  weight: ["400"],
+});
 
- const playfair = Playfair_Display({ 
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ['400', '500', '600', '700'],
- });
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata = {
   title: "Joe Maffa Portfolio",
-  
+
   description: "05/2024",
 };
 
