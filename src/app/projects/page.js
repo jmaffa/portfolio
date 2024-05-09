@@ -18,7 +18,7 @@ export default function Projects() {
       </div>
       <div className="flex flex-col px-20 py-10">
         <a
-          href="/projects/development"
+          href="/projects/song-selector"
           className="hover:bg-jm-yellow transition ease-in duration-300"
         >
           <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
@@ -46,7 +46,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="/projects/development"
+          href="/projects/iterative-design"
           className="hover:bg-jm-yellow transition ease-in duration-300"
         >
           <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
@@ -75,7 +75,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="/projects/development"
+          href="/projects/search"
           className="hover:bg-jm-yellow transition ease-in duration-300"
         >
           <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">

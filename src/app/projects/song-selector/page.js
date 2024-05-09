@@ -11,7 +11,7 @@ export default function page() {
         <div className="w-3/5 max-h-screen align-middle">
           <Image
             className="rounded-lg"
-            src="/placeholder.png"
+            src="/development-cover.png"
             width={800}
             height={100}
             alt="Test"
@@ -134,7 +134,20 @@ export default function page() {
                   that may prove useful. These sketches informed a low-fidelity
                   wireframe.
                 </p>
-                {/* Image */}
+                <Image
+                  className="rounded-lg object-fill max-w-1/2 mx-auto my-4"
+                  src="/dev-sketches.jpeg"
+                  width={600}
+                  height={100}
+                  alt="Development Sketches"
+                ></Image>
+                <Image
+                  className="rounded-lg object-cover max-w-1/2 mx-auto my-4"
+                  src="/dev-low-fi.png"
+                  width={600}
+                  height={100}
+                  alt="Development Low-Fi"
+                ></Image>
               </div>
               <div id="development" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">
@@ -158,8 +171,22 @@ export default function page() {
                   </b>
                   .
                 </p>
-                {/* Link to react app */}
-                {/* <Link></Link> */}
+                <Image
+                  className="rounded-lg object-cover max-w-1/2 mx-auto my-4"
+                  src="/dev-song-list.png"
+                  width={600}
+                  height={100}
+                  alt="Development POC"
+                ></Image>
+                <p>
+                  <Link
+                    target="_blank"
+                    href="https://development-gendo-aggregator.vercel.app/"
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
+                  >
+                    Visit my app!
+                  </Link>
+                </p>
               </div>
               <div id="learnings" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">
