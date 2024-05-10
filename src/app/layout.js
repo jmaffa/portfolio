@@ -18,13 +18,16 @@ const playfair = Playfair_Display({
 
 export const metadata = {
   title: "Joe Maffa Portfolio",
-
+  
   description: "05/2024",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={playfair.className}>{children}</body>
     </html>
   );

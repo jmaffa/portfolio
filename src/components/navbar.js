@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="w-full flex lg:flex-row flex-col text-center lg:text-left px-12 py-6 text-xl font-bold">
+    <div className="flex flex-col w-full lg:flex sm:flex-row sm:justify-evenly text-center sm:text-left px-12 py-6 text-xl font-bold">
       <div className="lg:w-1/2 lg:pl-4">
         <div>
           <a
@@ -13,7 +13,7 @@ export default function NavBar() {
           </a>
         </div>
       </div>
-      <div className="lg:w-1/2 flex lg:flex-row flex-col underline decoration-jm-yellow justify-end font-bold">
+      <div className="sm:basis-full flex sm:flex-row flex-col underline decoration-jm-yellow sm:justify-evenly font-bold">
         <div className="lg:pl-0 lg:w-1/4">
           <a
             className="underline hover:text-jm-red hover:decoration-jm-yellow decoration-2"
