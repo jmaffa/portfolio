@@ -44,8 +44,8 @@ export default function page() {
               6. Learnings
             </Link>{" "}
             <br />
-            <Link className="hover:text-jm-red" href="#next-steps">
-              7. Next Steps
+            <Link className="hover:text-jm-red" href="#conclusion">
+              7. Conclusion
             </Link>{" "}
             <br />
           </div>
@@ -222,18 +222,18 @@ export default function page() {
                   To begin the design process, I brainstormed end to end flows
                   for the eligibility and application process. In my flows, I
                   focused on multiple forms of validation to reduce risk of
-                  misinformed data leakage and different invitation routes. To
-                  view my full sketches, visit my{" "}
+                  misinformed data leakage and different invitation routes.
+                </p>
+                <p>
+                  View my{" "}
                   <Link
-                    href={
-                      "https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=2558-2230&mode=design&t=CWTrd13Z7WrPdCa1-0"
-                    }
-                    className="underline hover:decoration-jm-yellow hover:text-jm-red"
                     target="_blank"
+                    href="https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=2558-2230&mode=design&t=DwsC3gC98keyq0hx-0"
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
                   >
-                    Figma
-                  </Link>
-                  .
+                    sketches
+                  </Link>{" "}
+                  in full!
                 </p>
                 {/* TODO: IMAGES */}
                 <Image
@@ -259,20 +259,48 @@ export default function page() {
                 <p className="text-base pb-4">
                   As we progressed further in the project, I took ownership of
                   the main sign up and login flow while my teammates handled the
-                  eligibility and application process. I created a low-fidelity
-                  wireframe.
-                  <b className="italic">
-                    simplifying the annoying cross-referencing task that existed
-                    before
-                  </b>
-                  . Further, they can view members based on their class year and
-                  time in the club (gen), allowing them to balance the lineup
-                  based on the occasion.{" "}
-                  <b className="italic">
-                    Now first-years can have their own dedicated forays into the
-                    spotlight, and seniors can play their swan songs altogether
-                  </b>
-                  .
+                  eligibility and application process. My low-fidelity wireframe
+                  focused on allowing both caregivers and eligible carees to
+                  join the platform independently and connect their accounts to
+                  each other. To receive feedback, I shared a{" "}
+                  <Link
+                    target="_blank"
+                    href={
+                      "https://www.loom.com/share/114af47126f74e64b43fdd83cfae8c6c"
+                    }
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold"
+                  >
+                    Loom walkthrough
+                  </Link>{" "}
+                  with Elise.
+                </p>
+                <p className="text-base pb-4">
+                  She appreciated the ability to either find or invite both user
+                  types, but suggested that I add a way for caregivers to
+                  complete the entire process for carees as they might not be
+                  able to even navigate the app to accept an invite. As such, I
+                  added a screen that allows caregivers to create their carees
+                  account and will only require consent via a phone call or text
+                  message instead of a full login process.
+                </p>
+                <p>
+                  View my{" "}
+                  <Link
+                    target="_blank"
+                    href="https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=2038-415&mode=design&t=DwsC3gC98keyq0hx-0"
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
+                  >
+                    low-fidelity wireframe
+                  </Link>{" "}
+                  and the{" "}
+                  <Link
+                    target="_blank"
+                    href="https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=6130-617&mode=design&t=DwsC3gC98keyq0hx-0"
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
+                  >
+                    revisions
+                  </Link>{" "}
+                  in full!
                 </p>
                 <Image
                   className="rounded-lg object-cover max-w-1/2 mx-auto my-4"
@@ -281,55 +309,59 @@ export default function page() {
                   height={100}
                   alt="Development POC"
                 ></Image>
-                <p>
-                  <Link
-                    target="_blank"
-                    href="https://development-gendo-aggregator.vercel.app/"
-                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
-                  >
-                    Visit my app!
-                  </Link>
-                </p>
               </div>
               <div id="high-fi" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">
                   High-Fidelity Wireframes
                 </h3>
                 <p className="text-base pb-4">
-                  I had a few key takeaways from this project:
+                  Given the feedback from the low-fidelity wireframes, I added
+                  interactability, color, and more detailed components to the
+                  high-fidelity prototype. We also received feedback about
+                  increasing accessibility, so I added two dropdowns to allow
+                  users to change the language and font size of the interface.
                 </p>
-                <ul className="list-disc text-base pl-4">
-                  <li>
-                    <b className="italic">Make the task failproof for users!</b>{" "}
-                    Out of all the features I implemented, the most salient ones
-                    are the ones that empower the user to make the easy
-                    decisions. Whether that is adding multiple out options or
-                    sortability, people benefit from a helping hand in their
-                    task.
-                  </li>
-                  <li>
-                    <b className="italic">
-                      User research is imperative, even when I fall into the
-                      user group!
-                    </b>{" "}
-                    As a member of the group, I had thought that I would know
-                    the challenges that the performance leaders faced. However,
-                    talking to the performance leaders themselves as well as
-                    other members revealed insights like the scheduling
-                    conflicts and personalization that I would not have expected
-                    to arise.
-                  </li>
-                  <li>
-                    <b className="italic">
-                      Always keep your programming skills fresh!
-                    </b>{" "}
-                    I revisit frontend development in waves, not often having
-                    the chance to explore design in class and keeping these
-                    projects for my breaks. Even styling a rudimentary card
-                    component can be a challenge after stepping away for a
-                    couple months!
-                  </li>
-                </ul>
+                <p className="text-base pb-4">
+                  My group and I presented our finished prototype to Elise via
+                  another{" "}
+                  <Link
+                    target="_blank"
+                    href={
+                      "https://www.loom.com/share/4ad33165524447fb889548e92bb0d542"
+                    }
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold"
+                  >
+                    Loom walkthrough
+                  </Link>{" "}
+                  . She was impressed with the final product specifically with
+                  regards to our accessibility adjustments and personalization.
+                  She suggested two final changes: allowing for text updates to
+                  be sent to notify caregivers and carees of help needed and
+                  adjusting the login flow to suggest a &quot;happy path&quot;
+                  that is desired. While it is important to allow different
+                  means of interactions, we should weight the most common
+                  preferred path heavier than the others to reduce cognitive
+                  load.
+                </p>
+                <p>
+                  View my{" "}
+                  <Link
+                    target="_blank"
+                    href="https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=2131-1697&mode=design&t=DwsC3gC98keyq0hx-0"
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
+                  >
+                    high-fidelity wireframe
+                  </Link>{" "}
+                  and the{" "}
+                  <Link
+                    target="_blank"
+                    href="https://www.figma.com/file/aMHx2LP2RbsXxn48Py9IKt/Uno-Health-Overview-(Working)?type=design&node-id=2421-1119&mode=design&t=DwsC3gC98keyq0hx-0"
+                    className=" underline hover:decoration-jm-yellow hover:text-jm-red pt-4 font-bold text-lg"
+                  >
+                    revisions
+                  </Link>{" "}
+                  in full!
+                </p>
               </div>
               <div id="learnings" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">
@@ -340,52 +372,55 @@ export default function page() {
                 </p>
                 <ul className="list-disc text-base pl-4">
                   <li>
-                    <b className="italic">Make the task failproof for users!</b>{" "}
-                    Out of all the features I implemented, the most salient ones
-                    are the ones that empower the user to make the easy
-                    decisions. Whether that is adding multiple out options or
-                    sortability, people benefit from a helping hand in their
-                    task.
+                    <b className="italic">
+                      Design with accessibility as the first concern!
+                    </b>{" "}
+                    This app presented a unique challenge in that it was a
+                    technical product specifically for people who may not be
+                    comfortable with technology at all. As such, it was
+                    difficult to reframe my mindset on what is intuitive and
+                    expected from common interfaces.
                   </li>
                   <li>
                     <b className="italic">
-                      User research is imperative, even when I fall into the
-                      user group!
+                      Utilize components in Figma to increase consistency and
+                      speed!
                     </b>{" "}
-                    As a member of the group, I had thought that I would know
-                    the challenges that the performance leaders faced. However,
-                    talking to the performance leaders themselves as well as
-                    other members revealed insights like the scheduling
-                    conflicts and personalization that I would not have expected
-                    to arise.
+                    As I developed my high fidelity prototype, I found myself
+                    repeating a lot of common tasks in creating and moving
+                    buttons and text. Only later in the process did I consider
+                    how components might have saved me time and made the overall
+                    design and cleanup process easier at the end.
                   </li>
                   <li>
                     <b className="italic">
-                      Always keep your programming skills fresh!
+                      Highlight a happy path for users to follow!
                     </b>{" "}
-                    I revisit frontend development in waves, not often having
-                    the chance to explore design in class and keeping these
-                    projects for my breaks. Even styling a rudimentary card
-                    component can be a challenge after stepping away for a
-                    couple months!
+                    My intuition as a designer is to allow for wide
+                    interactibility through the app, but I had never considered
+                    emphasizing paths that we want to lead users down. While it
+                    is important to consider edge cases, I learned that it is
+                    just as important to make the common user experience as
+                    comfortable and seamless as can be.
                   </li>
                 </ul>
               </div>
-              <div id="next-steps" className="text-xl py-4">
+              <div id="conclusion" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">
-                  Next Steps
+                  Conclusion
                 </h3>
                 <p className="text-base pb-4">
-                  This app is a great proof of concept, but there are still a
-                  few extensions that would really improve the user experience.
-                  In a further sprint, I might add database integration to allow
-                  performance leaders to save their lineups and view previous
-                  ones. This might reduce repeated tasks as well as act as a
-                  great measure of participation in the group. Another useful
-                  feature might be a way to compose multiple songs together into
-                  a full lineup, allowing performance leaders to guage
-                  participation across a whole performance instead of just one
-                  song.
+                  This project provided a unique challenge of working
+                  collaboratively on a real problem that this startup is facing.
+                  I was able to step through all aspects of the design process
+                  from hand drawn sketches through high fidelity Figma
+                  prototypes Beyond the technical aspects, I grew as a team
+                  member and professional communicator, and got a taste of some
+                  more standard industry practice with the iterative wireframing
+                  process and client feedback. I am excited to see how Uno plans
+                  to tackle this problem in their own work and am looking
+                  forward to innovating on more healthtech problems in the
+                  future.
                 </p>
               </div>
             </div>

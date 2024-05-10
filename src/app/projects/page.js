@@ -82,7 +82,7 @@ export default function Projects() {
             {/* This might be an image with a title */}
             <Image
               className="lg:mr-4 rounded-lg"
-              src="/development-cover.png"
+              src="/search-cover.png"
               width="400"
               height="100"
               alt="Gendo Taiko Song Selector"
