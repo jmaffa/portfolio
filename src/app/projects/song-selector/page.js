@@ -133,7 +133,13 @@ export default function page() {
                   <li>Filter and sort functionality</li>
                   <li>Informative cards</li>
                 </ul>
-                {/* <Image/> */}
+                <Image
+                  className="rounded-lg object-fill max-w-1/2 mx-auto my-4"
+                  src="/dev-ca.png"
+                  width={600}
+                  height={100}
+                  alt="High Fi prototype"
+                ></Image>
               </div>
               <div id="sketching-wireframing" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">

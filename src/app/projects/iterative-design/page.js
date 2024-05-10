@@ -235,20 +235,12 @@ export default function page() {
                   </Link>{" "}
                   in full!
                 </p>
-                {/* TODO: IMAGES */}
                 <Image
                   className="rounded-lg object-fill max-w-1/2 mx-auto my-4"
-                  src="/dev-sketches.jpeg"
+                  src="/uno-sketches.png"
                   width={600}
                   height={100}
-                  alt="Development Sketches"
-                ></Image>
-                <Image
-                  className="rounded-lg object-cover max-w-1/2 mx-auto my-4"
-                  src="/dev-low-fi.png"
-                  width={600}
-                  height={100}
-                  alt="Development Low-Fi"
+                  alt="Sketches"
                 ></Image>
               </div>
               {/* TODO: BELOW */}
@@ -303,11 +295,11 @@ export default function page() {
                   in full!
                 </p>
                 <Image
-                  className="rounded-lg object-cover max-w-1/2 mx-auto my-4"
-                  src="/dev-song-list.png"
+                  className="rounded-lg object-fill max-w-1/2 mx-auto my-4"
+                  src="/uno-lf.png"
                   width={600}
                   height={100}
-                  alt="Development POC"
+                  alt="Low Fi prototype"
                 ></Image>
               </div>
               <div id="high-fi" className="text-xl py-4">
@@ -362,6 +354,13 @@ export default function page() {
                   </Link>{" "}
                   in full!
                 </p>
+                <Image
+                  className="rounded-lg object-fill max-w-1/2 mx-auto my-4"
+                  src="/uno-hf.png"
+                  width={600}
+                  height={100}
+                  alt="High Fi prototype"
+                ></Image>
               </div>
               <div id="learnings" className="text-xl py-4">
                 <h3 className="text-2xl font-semibold py-2 text-jm-blue">
