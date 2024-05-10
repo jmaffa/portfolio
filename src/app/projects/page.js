@@ -18,6 +18,40 @@ export default function Projects() {
       </div>
       <div className="flex flex-col px-20 py-10">
         <a
+          href="/projects/iterative-design"
+          className="hover:bg-jm-yellow transition ease-in duration-300"
+        >
+          <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
+            <Image
+              className="lg:mr-4 rounded-lg"
+              src="/uno-cover.png"
+              width="400"
+              height="100"
+              alt="Iterative Design"
+            ></Image>
+            <h1 className="lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center">
+              Iterative Design
+            </h1>
+            <div className="lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue"></div>
+            <p className="lg:pl-8 text-xl grow">
+              <span className="text-xl">
+                Redesigning a flow to improve access to Medicare benefits for
+                your loved ones.
+                <br />
+              </span>
+              <span className="text-base text-jm-blue italic pt-2">
+                Mobile, Figma, Prototype, Sketching
+              </span>
+              <br />
+              <span className="text-base text-jm-blue font-bold pt-2">
+                Designer
+              </span>
+              <br />
+              <span className="text-base pt-2">April 2024</span>
+            </p>
+          </div>
+        </a>
+        <a
           href="/projects/song-selector"
           className="hover:bg-jm-yellow transition ease-in duration-300"
         >
@@ -42,38 +76,16 @@ export default function Projects() {
               <span className="text-base text-jm-blue italic pt-2">
                 Web, React, Vercel
               </span>
+              <br />
+              <span className="text-base text-jm-blue font-bold pt-2">
+                Developer
+              </span>
+              <br />
+              <span className="text-base pt-2">March 2024</span>
             </p>
           </div>
         </a>
-        <a
-          href="/projects/iterative-design"
-          className="hover:bg-jm-yellow transition ease-in duration-300"
-        >
-          <div className="lg:flex lg:flex-row flex flex-col items-center px-4 py-4">
-            {/* This might be an image with a title */}
-            <Image
-              className="lg:mr-4 rounded-lg"
-              src="/uno-cover.png"
-              width="400"
-              height="100"
-              alt="Iterative Design"
-            ></Image>
-            <h1 className="lg:pr-8 font-bold text-2xl shrink-0 lg:w-48 text-center">
-              Iterative Design
-            </h1>
-            <div className="lg:border-l-4 lg:rounded lg:h-40 lg:border-jm-blue"></div>
-            <p className="lg:pl-8 text-xl grow">
-              <span className="text-xl">
-                Redesigning a flow to improve access to Medicare benefits for
-                your loved ones.
-                <br />
-              </span>
-              <span className="text-base text-jm-blue italic pt-2">
-                Mobile, Figma, Prototype, Sketching
-              </span>
-            </p>
-          </div>
-        </a>
+
         <a
           href="/projects/search"
           className="hover:bg-jm-yellow transition ease-in duration-300"
@@ -98,8 +110,14 @@ export default function Projects() {
                 <br />
               </span>
               <span className="text-base text-jm-blue italic pt-2">
-                Mobile, Figma, Prototype
+                Mobile, Figma, Figjam, Notion
               </span>
+              <br />
+              <span className="text-base text-jm-blue font-bold pt-2">
+                Product Manager
+              </span>
+              <br />
+              <span className="text-base pt-2">May - August 2023</span>
             </p>
             <p></p>
           </div>

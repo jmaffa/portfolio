@@ -7,6 +7,10 @@ export default function Fun() {
       <NavBar />
       <div className="pl-16">
         <h1 className="text-jm-blue text-6xl">Fun</h1>
+        <p>
+          <b>WIP:</b> I&apos;m excited to share all the other things I do
+          outside of the CIT... after I finish my finals :-)
+        </p>
       </div>
     </div>
   );
